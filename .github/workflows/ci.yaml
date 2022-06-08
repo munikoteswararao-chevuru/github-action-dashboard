@@ -66,4 +66,4 @@ jobs:
           cache-to: type=inline
       - name: Image digest
         run: echo ${{ steps.docker_build.outputs.digest }} #this is for logging.
-        
+
