@@ -1,5 +1,5 @@
 FROM node:16-alpine as base
-LABEL org.opencontainers.image.source=https://github.com/ChrisKinsman/github-action-dashboard
+LABEL org.opencontainers.image.source=https://github.com/munikoteswararao-chevuru/github-action-dashboard
 WORKDIR /github-action-dashboard
 
 # ---- Dependencies
