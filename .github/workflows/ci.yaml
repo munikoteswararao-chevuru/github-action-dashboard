@@ -67,7 +67,7 @@ jobs:
       - name: Image digest
         run: echo ${{ steps.docker_build.outputs.digest }} #this is for logging.
         
-      - name: Issue Dashboard
-        uses: ethomson/issue-dashboard@v1.0.2
+     # - name: Issue Dashboard
+     #   uses: ethomson/issue-dashboard@v1.0.2
 
 
